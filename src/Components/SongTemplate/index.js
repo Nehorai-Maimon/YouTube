@@ -58,7 +58,7 @@ export default function SongTemplate({ song, tuggle }) {
             <div className="melel">
                 <div className="titleSong">{song.title}</div>
                 <div className="subTitle">
-                    <span>{song.uploadedAt}</span> <span>{numOfViews}</span>
+                    <span>{song.uploadedAt}</span><span>{numOfViews}</span>
                 </div>
                 <div className="ic-CN-container">
                     <div id="CNName" className="subTitle" >{song.channel.name}</div>

@@ -2,6 +2,7 @@
     display: flex;
     justify-content: flex-end;
     z-index: auto;
+    margin-bottom: 10px;
 }
 .song:hover{
     cursor: pointer;
@@ -16,18 +17,20 @@
     font-size: 13px;
 }
 #iconC{
-    height: 30px;
-    width: 30px;
+    height: 24px;
+    width: 24px;
     border-radius: 50px;
     margin-left: 10px;
 }
 .ic-CN-container{
     display: flex;
     margin-top: 15px;
+    justify-content: right;
 }
 #CNName{
-    padding-top: 5px;
+    padding-top: 3px;
 }
 .melel{
     margin-right: 15px;
+    text-align: end;
 }
