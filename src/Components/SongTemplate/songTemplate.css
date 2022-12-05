@@ -1,0 +1,33 @@
+.song{
+    display: flex;
+    justify-content: flex-end;
+    z-index: auto;
+}
+.song:hover{
+    cursor: pointer;
+}
+.image{
+    height:202px; 
+    width: 360px;
+    border-radius:12px
+}
+.subTitle{
+    color: rgba(28, 25, 25, 0.77);
+    font-size: 13px;
+}
+#iconC{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.ic-CN-container{
+    display: flex;
+    margin-top: 15px;
+}
+#CNName{
+    padding-top: 5px;
+}
+.melel{
+    margin-right: 15px;
+}

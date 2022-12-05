@@ -1,0 +1,20 @@
+.popup{
+    position: fixed;
+    top: 68vh;
+    left: 5%;
+}
+/* .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    left: 30%;
+    top: 67vh;
+    background: #edededb8;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+} */

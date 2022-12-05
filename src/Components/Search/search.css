@@ -1,0 +1,20 @@
+.search{
+    display: flex;
+    margin-left: 37%;
+    border: solid;
+    border-radius: 12px;
+    width: 188px;
+    padding: 0px 10px 0;
+}
+#inputSearch{
+    border: none;
+}
+#searchIcon{
+    margin-left: 5px;
+}
+#searchIcon:hover{
+    cursor: pointer;
+}
+.search:active{
+    border: none;
+}
