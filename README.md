@@ -1,8 +1,8 @@
-#Hello!
+# Hello!
 
 I'm nehorai, welcome to my "YouTube".
 
-#To run this project tap "npm start"
+# To run this project tap "npm start"
 
 In this project I used JavaScript with React 
 
@@ -20,4 +20,4 @@ The search is done by using epi
 
 I tried to make this project look alike real youtube
 
-#Time: 17h
+# Time: 17h
