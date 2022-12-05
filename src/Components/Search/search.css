@@ -8,13 +8,14 @@
 }
 #inputSearch{
     border: none;
+    outline: none;
+}
+#inputSearch:focus-visible{
+    outline: none;
 }
 #searchIcon{
     margin-left: 5px;
 }
 #searchIcon:hover{
     cursor: pointer;
-}
-.search:active{
-    border: none;
 }

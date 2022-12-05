@@ -3,4 +3,6 @@
     font-family: cursive;
     margin: 0 0 16px 0;
     padding-top: 7px;
+    position: fixed;
+    width: 100%;
 }
