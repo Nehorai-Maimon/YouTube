@@ -15,7 +15,7 @@ export default function Search() {
     }
 
     return <div className="search">
-        { }
+        <div id="searchIcon" onClick={() => setInput(search)}><BiSearchAlt2 /></div>
         <input
             id="inputSearch"
             type="search"
@@ -23,8 +23,5 @@ export default function Search() {
             onChange={(e) => setSearch(e.target.value)}
             onKeyDown={(e) => test(e)}>
         </input>
-        <div className="btnSearch">
-            <div id="searchIcon" onClick={() => setInput(search)}><BiSearchAlt2 /></div>
-        </div>
     </div>
 }

@@ -6,7 +6,7 @@ I'm nehorai, welcome to my "YouTube".
 
 In this project I used JavaScript with React 
 
-Olso to run the videos I used ReactPlayer
+Olso to run the videos I used ReactPlayer and ReactIcons
 
 Hooks I used in this project:
 
@@ -16,8 +16,7 @@ useContext
 
 Interesting ability I made in this project is to make a search by using "Enter" key.
 
-The search is done by using epi 
+The search done by using epi 
 
-I tried to make this project look alike real youtube
 
 # Time: 17h
