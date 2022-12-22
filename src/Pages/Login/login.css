@@ -1,0 +1,21 @@
+#image {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+}
+.melel {
+    text-align: inherit !important;
+    padding: 5px 40px;
+    font-family: inherit;
+}
+.h1con{
+    background-color: rgba(251, 255, 253, 0.582);
+    height: 30vh;
+    width: 40%;
+    border-radius: 18px;
+}
