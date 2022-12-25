@@ -1,11 +1,12 @@
+import { Route, Routes } from "react-router-dom";
 import Login from "../Pages/Login/Login";
-import Header from "./Header";
-import Results from "./Results";
+import Songs from "../Pages/Songs/Song";
 
-export default function Layout(){
+export default function Layout() {
     return <div>
-        {/* <Header/>
-        <Results/> */}
-        <Login/>
-        </div>
+        <Routes>
+            <Route path="/" element={<Login />} />
+            <Route path="/entered" element={<Songs />} />
+        </Routes>
+    </div>
 }

@@ -8,9 +8,9 @@ function App() {
   const [videoUrl, setVideoUrl] = useState()
 
   return (
-      <searchContext.Provider value={{input, setInput,videoUrl, setVideoUrl}}>
-      <Layout/>
-      </searchContext.Provider>
+    <searchContext.Provider value={{ input, setInput, videoUrl, setVideoUrl }}>
+      <Layout />
+    </searchContext.Provider>
   );
 }
 

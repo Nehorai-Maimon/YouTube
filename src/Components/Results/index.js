@@ -33,7 +33,7 @@ export default function Results() {
 
 
     return <div className="resContainer">
-        <div>{data.map(song => <SongTemplate tuggle={tuggle} song={song} />)}</div>
+        <div>{data.map(song => <SongTemplate key={song.id} tuggle={tuggle} song={song} />)}</div>
         {isOpen && <Popup content={videoUrl} handleClose={tuggle} />}
     </div>
 }

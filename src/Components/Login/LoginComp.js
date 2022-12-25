@@ -1,10 +1,11 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 import "./loginComp.css"
 
 export default function Login() {
     const [sign, setSign] = useState(false)
     const [data, setData] = useState({})
-
+    const navigate = useNavigate()
     function bbb(e) {
         e.preventDefault()
         if (sign) {
@@ -71,7 +72,13 @@ export default function Login() {
                 <button
                     id="btnSign"
                     type="button"
-                    onClick={() => setSign(!sign)}>{sign ? "I have account" : "I don't have account"}
+                    onClick={() => setSign(!sign)}>{sign ? "I have an account" : "I don't have an account"}
+                </button>
+                <button
+                    id="btnSubmitLogin"
+                    type="button"
+                    onClick={()=> navigate("/entered")}
+                    >enter woithout login
                 </button>
             </div>
         </form>
